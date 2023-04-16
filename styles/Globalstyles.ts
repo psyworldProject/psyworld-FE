@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import reset from "styled-reset";
+import { createGlobalStyle } from 'styled-components'
+import reset from 'styled-reset'
 
 export const GlobalStyles = createGlobalStyle` 
   ${reset} // styled-reset이라는 패키지를 설치해야한다. 몇가지만 reset해 줄 경우 사용하지 않아도 무방하다.
@@ -36,6 +36,6 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
 }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

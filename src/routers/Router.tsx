@@ -11,7 +11,7 @@ function Router() {
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route path='/psylife' element={<PsyLifePage />} />
-        <Route path='/dairy' element={<DiaryPage />} />
+        <Route path='/diary' element={<DiaryPage />} />
         <Route path='/' element={<MiniHomePage />} />
         <Route path='/photobook' element={<PhotoBookPage />} />
         <Route path='/guestbook' element={<GuestBookPage />} />
